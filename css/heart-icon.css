@@ -43,3 +43,18 @@ body {
     font-size: 16px;
     color: #111;
 }
+
+.login-please {
+    padding: 50px 0px;
+}
+.login-please .please {
+    color: black;
+    text-align: center;
+}
+.login-please .please a {
+    color: black;
+    transition: all 0.41s;
+}
+.login-please .please a:hover {
+    color: #fe7250;
+}
