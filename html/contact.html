@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../css/contact.css">
+    <script src="../js/contact.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("VnpWR9SU_W8c5s7xm");
+   })();
+</script>   
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="header-content">
+            <a href="#" class="logo">
+                MSPORT
+            </a>
+            <ul class="navigation">
+                <li>
+                    <a href="../html/index.html">HOME</a>
+                </li>    
+                <li><a href="../html/shop.html">SHOP</a></li>
+                <li><a href="#feature">FEATURED</a></li>
+                <li><a href="#">BLOGS</a></li>
+                <li>
+                    <a href="#">CONTACT</a>
+                </li>
+            </ul>   
+        </div>
+    </div> 
+      
+    <!-- contact us -->
+    <div class="contact">
+            <h1>CONTACT ME</h1>
+            <div class="line-contactus"></div>
+            <p>Have question or comments?</p>
+    </div>
+    <form>      
+        <input name="name" type="text" class="feedback-input" placeholder="Name" id="name"/>   
+        <input name="email" type="text" class="feedback-input" placeholder="Email" id="email" />
+        <textarea name="text" class="feedback-input" placeholder="Comment" id="comment"></textarea>
+        <button onclick="sendMail()">SUBMIT</button>
+      </form>
+
+
+      <!--footer-->
+    <div class="top-footer">
+        <div class="footer">
+            <div class="inf-footer">
+                <h1>MSPORT</h1>
+                <p>Subscribe our newsletter and get
+                    discount 30% off</p>
+                <div class="from-mail">
+                    <input type="" placeholder="Your email address..">
+                    <i class="fa-sharp fa-regular fa-paper-plane"></i>
+                </div>
+                <div class="list-icon">
+                   <a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                   <a href="#" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                   <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                   <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="costumer column234">
+                <h4>Customer Care</h4>
+                <div class="line"></div>
+                <ul class="list-unstyle">
+                    <li><a href="#">Pagination</a></li>
+                    <li><a href="#">Home page</a></li> 
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Accessories</a></li>
+                    <li><a href="#">Term of use</a></li>
+                </ul>
+            </div>
+
+            <div class="quick column234">
+                <h4>Quick Shop</h4>
+                <div class="line"></div>
+                <ul class="list-unstyle">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li> 
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Products Return</a></li>
+                    <li><a href="#">Wholesale Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="company column234">
+                <h4>Company</h4>
+                <div class="line"></div>
+                <ul class="list-unstyle">
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Address Store</a></li> 
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Receivers & Amplifiers</a></li>
+                    <li><a href="#">KsportStore</a></li>
+                </ul>
+            </div>
+        </div>   
+    </div>
+    <div class="bottom-footer">
+        <div class="copyright">
+            <p>
+                 © Copyright 2023 by
+                 <a href="#">TranThanhMai</a>
+            </p>
+        </div>
+        <div class="payment">
+            <a href="#"><img src="../imgs/visa.png" alt=""></a>
+            <a href="#"><img src="../imgs/paypal-logo.png" alt=""></a>
+            <a href="#"><img src="../imgs/mastercard.jpeg" alt=""></a>
+            <a href="#"><img src="../imgs/jcb.jpeg" alt=""></a>
+        </div>
+    </div>
+
+      
+</body>
+</html>

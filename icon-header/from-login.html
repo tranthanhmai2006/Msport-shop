@@ -23,17 +23,17 @@ crossorigin="anonymous" referrerpolicy="no-referrer"/>
             </div>
             <div class="infor">
                 <h2 class="title">Great to have you back!</h2>
-                <input type="email" placeholder="Email address">
-                <input type="pass" placeholder="Password">
+                <input type="email" placeholder="Email address" id="email">
+                <input type="password" placeholder="Password" id="password" required>
                 <a class="forget" href="#">Forgot your password?</a>
-                <button class="login" href="#">LOG IN</button>
+                <button class="login" type="button" onclick="from_login()">LOG IN</button>
                 <p class="no-acc" href="#">
                     Don't have an account?
-                    <a href="../icon-header/regiser-login.html">Register now</a>
+                    <a href="../icon-header/regiser-login.html" >Register now</a>
                 </p>
             </div>  
-
         </div>
     </form>
+    <script src="../js/from-login.js"></script>
 </body>
 </html>

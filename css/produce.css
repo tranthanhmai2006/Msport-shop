@@ -177,6 +177,53 @@
     letter-spacing: 2px;
     margin-top: 15px;
 }
+
+/* tab-content */
+nav {
+    display: flex;
+    justify-content: center;
+}
+nav .nav-link {
+    color:#757575;
+}
+nav .nav-link:hover {
+    color: #fe7250;
+}
+
+.tab-content {
+    font-size: 19px;
+    color:#ccc;
+    padding: 15px 10px;
+}
+.tab-content .inf-tab h2 {
+    color: black
+}
+.tab-content .inf-tab .add-inf {
+    color: #ccc;
+}
+.all-inf {
+    display: flex;
+    justify-content: space-between ;
+}
+.all-inf p {
+    width: 600px;
+}
+.all-inf .delivery {
+    width: 200px;
+
+}
+.all-inf .addinf-img img {
+    width: 400px;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+}
+
+
+
+
+
+
 .column-icon {
     align-items: center;
     border-top: 1.5px solid #ccc;
