@@ -7,6 +7,7 @@
     <title>Rowing Machine - MSport Store</title>
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../imgs/">
+    <link rel="stylesheet" href="../css/cssheader.css">
     <link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
@@ -18,183 +19,61 @@ crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
 <body>
     <!-- Header -->
-    <div class="header">
-        <div class="header-content">
-            <a href="../html/index.html" class="logo">
-                MSPORT
-            </a>
-            <ul class="navigation">
-                <li>
-                    <a href="../html/index.html">HOME</a>
-                    <!-- <ul class="list-home">
-                        <li>
-                            <a href="#">
-                                <img src="../imgs/home1.avif" alt="">
-                                <h2>Home1</h2>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="../imgs/home2.avif" alt="">
-                                <h2>Home2</h2>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="../imgs/home3.avif" alt="">
-                                <h2>Home3</h2>
-                            </a>
-                        </li><li>
-                            <a href="#">
-                                <img src="../imgs/home4.avif" alt="">
-                                <h2>Home4</h2>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="../imgs/home5.avif" alt="">
-                                <h2>Home5</h2>
-                            </a>
-                        </li>
-                    </ul> -->
-                </li>    
-                <li><a href="#">SHOP</a></li>
-                <li><a href="#">FEATURED</a></li>
-                <li><a href="#">BLOGS</a></li>
-                <li>
-                    <a href="#">PAGE</a>
-                    <!-- <ul class="sub-nav">
-                        <li>
-                            <a href="">About
-                                <div class="lists-subnav">
-                                    <ul class="list-sub-nav">
-                                        <li><a href="">About Us#1</a></li>
-                                        <li><a href="">About Us#2</a></li>
-                                        <li><a href="">About Us#3</a></li>
-                                        <li><a href="">About Us#4</a></li>
-                                    </ul>
-                                </div>
-                            </a>
-                        </li>
+    <div class="wrapper">
+        <nav>
+          <input type="checkbox" id="show-search">
+          <input type="checkbox" id="show-menu">
+          <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+          <div class="content">
+          <div class="logo"><a href="./html/index.html">MSPORT</a></div>
+            <ul class="links">
+              <li><a href="./html/index.html">HOME</a></li>
+              <li><a href="./html/shop.html">SHOP</a></li>
+              <li>
+                <a href="#" class="desktop-link">FEATURE</a>
+                <input type="checkbox" id="show-features">
+                <label for="show-features">BLOGS</label>
+                <ul>
+                  <li><a href="#">Drop Menu 1</a></li>
+                  <li><a href="#">Drop Menu 2</a></li>
+                  <li><a href="#">Drop Menu 3</a></li>
+                  <li><a href="#">Drop Menu 4</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="./html/contact.html" class="desktop-link">CONTACT</a>
+                <input type="checkbox" id="show-services">
+                <label for="show-services">Services</label>
+                <ul>
+                  <li><a href="#">Drop Menu 1</a></li>
+                  <li><a href="#">Drop Menu 2</a></li>
+                  <li><a href="#">Drop Menu 3</a></li>
+                  <li>
+                    <a href="#" class="desktop-link">More Items</a>
+                    <input type="checkbox" id="show-items">
+                    <label for="show-items">More Items</label>
+                    <ul>
+                      <li><a href="#">Sub Menu 1</a></li>
+                      <li><a href="#">Sub Menu 2</a></li>
+                      <li><a href="#">Sub Menu 3</a></li>
                     </ul>
-                        <li>
-                            <a href="">Contact</a>
-                            <div class="lists-subnav">
-                                <ul class="list-sub-nav">
-                                    <li><a href="">Contact Us#1</a></li>
-                                    <li><a href="">Contact Us#2</a></li>
-                                    <li><a href="">Contact Us#3</a></li>
-                                    <li><a href="">Contact Us#4</a></li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li><a href="">Faqs</a></li>
-                    </ul> -->
-                </li>
-            </ul>   
-            <div class="icon">
-                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-                <a href="#"><i class="fa-regular fa-user"></i></a>
-                <a href="#"><i class="fa-regular fa-heart"></i></a>
-                <a href="#"><i class="fa-regular fa-clipboard"></i></a>
-            </div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="icon">
+            <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+          <form action="#" class="search-box">
+            <input type="text" placeholder="Type Something to Search..." required>
+            <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+          </form>
+            <a href="../icon-header/from-login.html" target="_blank" ><i class="fa-regular fa-user"></i></a>
+            <a href="../icon-header/heart-icon.html"><i class="fa-regular fa-heart"></i></a>
+            <a href="#"><i class="fa-regular fa-clipboard"></i></a>
         </div>
-    </div>
-    <!-- body-product -->
-    <div class="body-product">
-        <div class="body-product-top">
-            <div class="product-top-left">
-                <a href="../html/index.html">Home</a>
-                <div class="greater">></div>
-                <p class="current-page">
-                    Rowing Machine
-                </p>
-            </div>
-            <div class="product-top-right">
-                <a class="prev" href="../product/seamless-bra.html">PREV</a>
-                <div class="vertical">|</div>
-                <a class="next" href="../product/row-x.html">NEXT</a>
-            </div>
-        </div>
-        <div class="container">
-            <div class="imgs-product">
-                <img class="img-large" src="../imgs/bestseller5.webp" alt="">
-                <div class="img-small">
-                    <img src="../imgs/bestseller5.webp" alt="">
-                    <img src="../imgs/rowing1.webp" alt="">
-                    <img src="../imgs/rowing2.webp" alt="">
-                    <img src="../imgs/rowing3.webp" alt="">
-                </div>
-            </div>
-            <div class="content">
-                <div class="name-product">
-                    <h2>Rowing Machine</h2>
-                    <div class="price">
-                        <p class="sale_price">$599.00 </p>
-                        <p class="buy_price">$799.00</p>
-                    </div>
-                    <div class="hover_active">
-                        <a href=""><i class="fa-regular fa-heart"></i></a>
-                        <a href=""><i class="fa-regular fa-heart"></i></a>
-                        <a href=""><i class="fa-regular fa-heart"></i></a>
-                        <a href=""><i class="fa-regular fa-heart"></i></a>
-                        <a href=""><i class="fa-regular fa-heart"></i></a>
-                    </div>
-                </div>
-                <div class="inf-product">
-                    <p>In-water resistance creates a dynamic rowing stroke with limitless resistance levels, so it not only sounds like rowing on water, but also feels like rowing on water. Furthermore, there is no 'dead point' during the actual stroke action due to the revolutionary oar blades in the water tank...</p>
-                </div>
-                <div class="buy_container">
-                    <div class="add-to-card">
-                        <input type="number" value="1"  >
-                        <a href="#" class="add-to-cart">ADD TO CART</a>
-                    </div>
-                    <a href="#" class="buy-it-now">BUY IT NOW</a>
-                </div>
-                <div class="Categories">
-                    <p class="Categorie">
-                        Categories:
-                        <a href="#">Home page,</a>
-                        <a href="#">hot deal,</a>
-                        <a href="#">new</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="featured-icons">
-            <div class="icon-featured">
-                <div class="icon">
-                    <i class="fa-solid fa-plane"></i>
-                </div>
-                <div class="name-icon">
-                    <h2>WORLDWIDE SHIPPING</h2>
-                </div>
-            </div>
-            <div class="icon-featured">
-                <div class="icon">
-                    <i class="fa-solid fa-plane"></i>
-                </div>
-                <div class="name-icon">
-                <h2>FREE 60-DAY RETURNS</h2>
-                </div>
-            </div>
-            <div class="icon-featured">
-                <div class="icon">
-                    <i class="fa-solid fa-plane"></i>
-                </div>
-                <div class="name-icon">
-                    <h2>WORLDWIDE SHIPPING</h2>
-                </div>
-            </div>
-            <div class="icon-featured">
-                <div class="icon">
-                    <i class="fa-solid fa-shield-halved"></i>
-                </div>
-                <div class="name-icon">
-                    <h2>WORLDWIDE SHIPPING</h2>
-                </div>
-            </div>   
-        </div>
+        </nav>
+      </div>
 
         <!-- tab-content -->
         <div class="tab-content">

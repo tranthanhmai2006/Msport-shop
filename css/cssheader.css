@@ -180,10 +180,13 @@ nav .content .links{
   .wrapper #show-menu:checked ~ .menu-icon i::before{
     content: "\f00d";
   }
+  nav .content {
+    padding: 0px 30px;
+  }
   nav .content .links{
     display: block;
     position: fixed;
-    background: #14181f;
+    background: #fff;
     height: 100%;
     width: 100%;
     top: 70px;
