@@ -240,3 +240,43 @@ nav .nav-link:hover {
     color: #fe7250;
 }
 
+/* phone */
+@media screen and (max-width: 400px) {
+    .container {
+        flex-direction: column;
+    }
+    .imgs-product .img-large {
+        width: 107%;
+    }
+    .imgs-product .img-small img {
+        width: 82px;
+        margin: 1px 3px;
+    }
+    .name-product h2 {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    .content .name-product .price {
+        margin: 0px;
+    }
+    .content .name-product .price .sale_price {
+        font-size: 23px;
+    }
+    .content .name-product .price .buy_price { 
+        font-size: 23px;
+    }
+    .hover_active {
+        font-size: 26px;
+    }
+    .featured-icons {
+        margin: 26px -11px;
+    }
+    .featured-icons .icon-featured {
+        width: 26%;
+        height: 110px;
+        margin-right: 5px;  
+    }
+    .featured-icons .icon-featured .name-icon h2 {
+        font-size: 9px;
+
+    }
